@@ -13,6 +13,8 @@
 		BCB81628250D91EC00515E89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB81626250D91EC00515E89 /* Main.storyboard */; };
 		BCB8162A250D91ED00515E89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB81629250D91ED00515E89 /* Assets.xcassets */; };
 		BCB8162D250D91ED00515E89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB8162B250D91ED00515E89 /* LaunchScreen.storyboard */; };
+		BCB81635250D96EC00515E89 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB81634250D96EC00515E89 /* CoinManager.swift */; };
+		BCB81637250DB12800515E89 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB81636250DB12800515E89 /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BCB81629250D91ED00515E89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB8162C250D91ED00515E89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB8162E250D91ED00515E89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB81634250D96EC00515E89 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		BCB81636250DB12800515E89 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BCB81620250D91EC00515E89 /* AppDelegate.swift */,
 				BCB81622250D91EC00515E89 /* SceneDelegate.swift */,
 				BCB81624250D91EC00515E89 /* ViewController.swift */,
+				BCB81634250D96EC00515E89 /* CoinManager.swift */,
+				BCB81636250DB12800515E89 /* CoinData.swift */,
 				BCB81626250D91EC00515E89 /* Main.storyboard */,
 				BCB81629250D91ED00515E89 /* Assets.xcassets */,
 				BCB8162B250D91ED00515E89 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB81635250D96EC00515E89 /* CoinManager.swift in Sources */,
 				BCB81625250D91EC00515E89 /* ViewController.swift in Sources */,
+				BCB81637250DB12800515E89 /* CoinData.swift in Sources */,
 				BCB81621250D91EC00515E89 /* AppDelegate.swift in Sources */,
 				BCB81623250D91EC00515E89 /* SceneDelegate.swift in Sources */,
 			);
